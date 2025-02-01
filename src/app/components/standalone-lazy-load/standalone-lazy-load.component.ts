@@ -13,7 +13,8 @@ import {LazyElementDirective} from "@angular-extensions/elements";
 })
 export class StandaloneLazyLoadComponent {
 
-  data = {};
+  // Example data that is passed to the element via property binding.
+  data = { message: 'Hello from Angular!' };
   elementUrl = 'http://localhost:3855/assets/module/my-custom-element.js';
   handleChange(ev: any) {
     console.log('ev - ', ev);
