@@ -9,7 +9,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+access via
 
+`http://localhost:3855/assets/module/my-custom-element.html`
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.

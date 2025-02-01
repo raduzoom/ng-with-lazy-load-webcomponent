@@ -1,2 +1,14 @@
 <p>standalone-lazy-load works!</p>
  2
+<p>lazy-load works!</p>
+22
+
+<!-- will be lazy loaded and uses standard Angular template bindings -->
+
+<my-custom-element
+  *axLazyElement="elementUrl"
+  [data]="data"
+  (dataChange)="handleChange($event)"
+>
+  test
+</my-custom-element>
